@@ -2,12 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { nanoid } from 'nanoid';
 
 const initState = {
-  contacts: [
-    { id: 0, userName: 'Learn HTML and CSS', number: 112233 },
-    { id: 1, userName: 'Get good at JavaScript', number: 112233 },
-    { id: 2, userName: 'Master React', number: 112233 },
-    { id: 3, userName: 'Discover Redux', number: 112233 },
-  ],
+  contacts: [],
   filter: '',
 };
 
